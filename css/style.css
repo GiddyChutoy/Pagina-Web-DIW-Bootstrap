@@ -1,0 +1,12 @@
+hr {
+    width: 98%;
+    border: 5px #4097c9 solid;
+}
+
+#fotos {
+    margin: 5px;
+    padding: 5%;
+    border: 1px black solid;
+}
+
+#fotos img {}
