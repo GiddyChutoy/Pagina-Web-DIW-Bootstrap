@@ -2,8 +2,9 @@ body {
     background-color: rgb(228, 234, 236);
 }
 
-header {
+nav {
     background-color: white;
+    height: 80px;
 }
 
 #lineaAzul {
@@ -34,6 +35,7 @@ header {
 #fotoPerfil {
     grid-column: 1;
     text-align: center;
+    margin-top: 30%;
 }
 
 #fotoPerfil img {
@@ -42,6 +44,26 @@ header {
 
 #datos {
     grid-column: 2;
+}
+
+@media screen and (max-width:1200px) {
+    #acercade {
+        display: grid;
+        grid-template-rows: 2;
+        grid-template-columns: 0;
+        grid-column-gap: 1em;
+        justify-content: center;
+    }
+    #fotoPerfil {
+        grid-row: 1;
+        text-align: center;
+        margin-top: 30%;
+        margin-left: 50%;
+        margin-bottom: 10px;
+    }
+    #datos {
+        grid-row: 2;
+    }
 }
 
 
